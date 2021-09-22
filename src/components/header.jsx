@@ -4,11 +4,12 @@ export const Header = (props) => {
   return (
     <header id="header">
       <div className="intro">
-        <ParticlesBg
+        {/* <ParticlesBg
           type="circle"
           bg={{ zIndex: 0, position: "absolute", top: 0 }}
-        />
-        <div className="overlay">
+        /> */}
+        <img src="img/banner.png" className="logo" alt="Código Tecnologia" />
+        {/* <div className="overlay">
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
@@ -21,12 +22,12 @@ export const Header = (props) => {
                   href="#history"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Veja mais
+                  Conhecer
                 </a>{" "}
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
   );

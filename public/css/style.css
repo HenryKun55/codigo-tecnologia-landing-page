@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,7 +11,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -43,13 +43,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #608dfd;
+  color: #035aa6;
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #608dfd;
+  color: #035aa6;
 }
 ul,
 ol {
@@ -86,14 +86,14 @@ button.page-scroll {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
@@ -109,7 +109,7 @@ button.page-scroll {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #035aa6 0%, #b0d6df 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -130,7 +130,7 @@ button.page-scroll {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #035aa6 0%, #b0d6df 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -140,10 +140,10 @@ button.page-scroll {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #035aa6;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #035aa6;
 }
 .section-title {
   margin-bottom: 70px;
@@ -157,7 +157,7 @@ button.page-scroll {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #b0d6df 0%, #035aa6 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -168,11 +168,11 @@ button.page-scroll {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #b0d6df;
+  background-image: linear-gradient(to right, #b0d6df 0%, #035aa6 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -189,7 +189,7 @@ button.page-scroll {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #035aa6;
 }
 .btn:active,
 .btn.active {
@@ -210,21 +210,13 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
-  position: relative;
-  width: 100%;
-  padding: 0;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  margin-top: 76px;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
@@ -234,7 +226,7 @@ a:focus,
 }
 .intro h2 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #b0d6df;
 }
 .intro p {
   color: #fff;
@@ -244,27 +236,13 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+.intro img {
+  width: 100%;
+}
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
-}
-/* Features Section */
-#history {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
-#history i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
 #about {
@@ -282,11 +260,14 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #b0d6df 0%, #035aa6 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
   left: 0;
+}
+#about .video {
+  margin: none;
 }
 #about .about-text li {
   margin-bottom: 6px;
@@ -296,8 +277,8 @@ header .intro-text {
 }
 #about .about-text li:before {
   content: "\f00c";
-  font-family: "FontAwesome";
-  color: #5ca9fb;
+  font-family: "Montserrat", sans-serif;
+  color: #b0d6df;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -316,10 +297,35 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+/* Features Section */
+#benevolent {
+  padding: 100px 0;
+  background: #f6f6f6;
+}
+#benevolent .container {
+  display: flex;
+  flex-direction: column;
+}
+#benevolent i.fa,
+i.fas {
+  font-size: 38px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #035aa6 0%, #b0d6df 100%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#benevolent .item {
+  margin: 2rem 0;
+}
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #035aa6 0%, #b0d6df 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -343,7 +349,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #035aa6 0%, #b0d6df 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -360,14 +366,14 @@ header .intro-text {
   margin-bottom: 40px;
 }
 /* Portfolio Section */
-#portfolio {
+#products {
   padding: 100px 0;
 }
-.portfolio-item {
+.products-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
 }
-.portfolio-item .hover-bg {
+.products-item .hover-bg {
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -377,12 +383,8 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
-  padding: 30% 0 0 0;
+  background: linear-gradient(to right, #035aa6ff 0%, #b0d6dfdd 100%);
+  padding: 40% 0 0 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -396,8 +398,11 @@ header .intro-text {
   transition: all 0.3s;
   font-size: 18px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
+}
+.hover-bg .hover-text ul {
+  margin: 2rem 0;
 }
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
@@ -408,41 +413,41 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
+/* depoiments Section */
+#depoiments {
   padding: 100px 0;
   background: #f6f6f6;
 }
-#testimonials i {
+#depoiments i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
 }
-.testimonial {
+.depoiment {
   position: relative;
   padding: 20px;
 }
-.testimonial-image {
+.depoiment-image {
   float: left;
   margin-right: 15px;
 }
-.testimonial-image,
-.testimonial-image img {
+.depoiment-image,
+.depoiment-image img {
   display: block;
   width: 64px;
   height: 64px;
   border-radius: 50%;
 }
-.testimonial-content {
+.depoiment-content {
   position: relative;
   overflow: hidden;
 }
-.testimonial-content p {
+.depoiment-content p {
   margin-bottom: 0;
   font-size: 14px;
   font-style: italic;
 }
-.testimonial-meta {
+.depoiment-meta {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
@@ -469,7 +474,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #035aa6 0%, #b0d6df 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -519,7 +524,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   float: left;
 }
 #contact .form-control {
@@ -589,7 +594,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #035aa6;
   background: #fff;
 }
 /* Footer Section*/
@@ -602,18 +607,24 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: #608dfd;
+  color: #035aa6;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #035aa6;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .products-items {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
 }
 
 @media (max-width: 768px) {
   .intro h2 {
     font-size: 42px;
-  }
-  img.logo {
-    height: 42px;
   }
   div.about {
     display: flex;

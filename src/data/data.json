@@ -1,10 +1,9 @@
 {
   "Header": {
-    "title": "Nós somos a Código Tecnologia",
-    "paragraph": "Texto pequeno sobre a empresa."
+    "title": "Precisa de testes ou carregadores de bateria? Os melhores estão aqui!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Com muita técnica e inovação levamos a todo o Brasil os melhores testes e carregadores de baterias. Estamos há mais de 14 anos fazendo história e revolucionando o mercado!",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -18,6 +17,154 @@
       "Lorem ipsum dolor"
     ]
   },
+  "Products": [
+    {
+      "title": "TB50 Analógico",
+      "thumb": "img/products/tb50analogico.jpg",
+      "descriptions": [
+        "Testa baterias 12v de 2,5ah até 19ah",
+        "Teste de sistema de recarga e motor de arranque",
+        "Visor analógico de até 16v"
+      ],
+      "warranty": "12 meses de garantia",
+      "use": "Uso profissional"
+    },
+    {
+      "title": "TB50 Digital",
+      "thumb": "img/products/tb50digital.jpg",
+      "descriptions": [
+        "Testa baterias 12v de 2,5ah até 19ah",
+        "Teste de sistema de recarga e motor de arranque",
+        "Visor digital de até 30v"
+      ],
+      "warranty": "12 meses de garantia",
+      "use": "Uso profissional"
+    },
+    {
+      "title": "TB300 Analógico",
+      "thumb": "img/products/tb300analogico.jpg",
+      "descriptions": [
+        "Testa baterias 12v de 30ah até 150ah",
+        "Visor analógico de até 16v",
+        "Visor digital de até 30v"
+      ],
+      "warranty": "12 meses de garantia",
+      "use": "Uso profissional"
+    },
+    {
+      "title": "TB300 Digital",
+      "thumb": "img/products/tb300digital.jpg",
+      "descriptions": [
+        "Testa baterias 12v de 30ah até 150ah",
+        "Teste de sistema de recarga e motor de arranque",
+        "Visor analógico de até 16v",
+        "Visor digital de até 30v",
+        "Testa sistema 24v"
+      ],
+      "warranty": "12 meses de garantia",
+      "use": "Uso profissional"
+    },
+    {
+      "title": "TB500",
+      "thumb": "img/products/tb500.jpg",
+      "descriptions": [
+        "Testa baterias 12v de 2,5ah até 200ah",
+        "Teste de sistema de recarga e motor de arranque",
+        "Visor analógico de até 16v",
+        "Cabo positivo e negativo com 1,5m de comprimento"
+      ],
+      "selections": [
+        "100a – para baterias de 2,5ah até 19ah",
+        "200a – para baterias de 51 até 100ah",
+        "300a – para baterias de 101ah até 150ah",
+        "500a – para baterias de 151ah até 200ah"
+      ],
+      "warranty": "12 meses de garantia",
+      "use": "Uso profissional"
+    },
+    {
+      "title": "TB600",
+      "thumb": "img/products/tb600.jpg",
+      "descriptions": [
+        "Testa baterias 12v de 2,5ah até 250ah",
+        "Teste de sistema de recarga e motor de arranque",
+        "Visor analógico de até 16v",
+        "Cabo positivo e negativo com 1,5m de comprimento"
+      ],
+      "selections": [
+        "100a – para baterias de 2,5ah até 19ah",
+        "200a – para baterias de 51 até 100ah",
+        "300a – para baterias de 101ah até 150ah",
+        "600a – para baterias de 151ah até 200ah"
+      ],
+      "warranty": "12 meses de garantia",
+      "use": "Uso profissional"
+    }
+  ],
+  "Benevolent": [
+    {
+      "icon": "fas fa-award",
+      "title": "Garantia de 1 ano"
+    },
+    {
+      "icon": "fas fa-shipping-fast",
+      "title": "Envio para todo o Brasil"
+    },
+    {
+      "icon": "fas fa-tools",
+      "title": "Acabamento excelente"
+    },
+    {
+      "icon": "fas fa-dollar-sign",
+      "title": "Melhor custo benefício"
+    },
+    {
+      "icon": "fas fa-battery-full",
+      "title": "Durabilidade e resistência"
+    }
+  ],
+  "Depoiments": [
+    {
+      "text": "Sempre adquirimos testes da Código Tecnologia para uso aqui no distribuidor Moura da Paraíba, como também para as revendas de baterias. São produtos confiáveis e de qualidade que atendem nossa demanda com segurança. Recomendo para os meus clientes!",
+      "name": "Lucio, Moura (João Pessoa - PB"
+    },
+    {
+      "text": "Nós aqui da Cominas estamos muito satisfeitos com os aparelhos fornecidos pelo Alexandre da Código Tecnologia, pessoa muito atenciosa e rápida nos envios dos produtos, sem contar a qualidade e duração dos mesmos.",
+      "name": "Tomio (Belo Horizonte - MG)"
+    },
+    {
+      "text": "Os testes de bateria são bem precisos e de boa qualidade, o atendimento também é muito bom!",
+      "name": "Bruno Nobre, Fortaleza das baterias (CE)"
+    },
+    {
+      "text": "Produtos de excelente qualidade e de fácil manuseio.",
+      "name": "Dacsom , Carubat (Caruaru - PE)"
+    },
+    {
+      "text": "Os testes de baterias e carregadores são excelentes! ",
+      "name": "Renato , Baterias Júpiter (Caruaru - PE)."
+    },
+    {
+      "text": "Alexandre gostaria de agradecer a presteza no atendimento, rapidez na entrega, você está sempre disponível para atender nossas necessidades. Parabéns pelo excelente trabalho!",
+      "name": "Rafael, Moura Bonfim (Juazeiro - BA)"
+    },
+    {
+      "text": "Sou cliente da código tecnologia e gostaria de agradecer ao Alexandre que sempre me atende com a maior satisfação, seus produtos me atendem muito bem com suas qualidades. Cliente satisfeito",
+      "name": "Junior (Teresina - PI)"
+    },
+    {
+      "text": "Sempre adquirimos testes da Código Tecnologia, para uso aqui no distribuidor Moura da Paraíba, como também para as revendas de baterias, são produtos confiáveis e de qualidade, que atendem nossa demanda com segurança. Recomendo para meus clientes.",
+      "name": "Lucio, Moura (João Pessoa - PB)"
+    },
+    {
+      "text": "Alexandre é um grande parceiro nosso no processo de profissionalização dos nossos revendedores, temos total confiança na parceria comercial.",
+      "name": " Alysson Barros, Palácio das Baterias – Moura (Recife - PE)"
+    },
+    {
+      "text": "Um ótimo produto e um ótimo atendimento, sempre pronto para nos atender.",
+      "name": "Paulo, Moura Disbac (Cuiabá - MT)"
+    }
+  ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
@@ -50,38 +197,6 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
   "Team": [
     {
       "img": "img/team/01.jpg",
@@ -111,27 +226,5 @@
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
-  },
-  "History": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  }
 }

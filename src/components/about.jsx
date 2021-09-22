@@ -3,35 +3,22 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6 about">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
-          </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="col-xs-12">
             <div className="about-text">
               <h2>Sobre nós</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
+              <br />
+              <div className="video about">
+                <iframe
+                  width="100%"
+                  height="500"
+                  title="codigo-tecnologia-institucional-video"
+                  allow="autoplay"
+                  src="https://www.youtube.com/embed/6TUAcDuMmJ8?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0"
+                ></iframe>
               </div>
+              <br />
+              <h3>CONHEÇA-NOS!</h3>
+              <p>{props.data ? props.data.paragraph : "loading..."}</p>
             </div>
           </div>
         </div>
