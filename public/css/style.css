@@ -266,8 +266,11 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
-#about .video {
-  margin: none;
+#about .video-container {
+  display: flex;
+}
+#about .video-about {
+  width: 300rem;
 }
 #about .about-text li {
   margin-bottom: 6px;
@@ -367,11 +370,13 @@ i.fas {
 }
 /* Portfolio Section */
 #products {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .products-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
+}
+.products-items .product {
 }
 .products-item .hover-bg {
   overflow: hidden;
@@ -386,24 +391,21 @@ i.fas {
   position: absolute;
   text-align: center;
   margin: 0 auto;
-  color: #fff;
   background: linear-gradient(to right, #035aa6ff 0%, #b0d6dfdd 100%);
-  padding: 40% 0 0 0;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: all 0.5s;
 }
-.hover-bg .hover-text > h4 {
-  opacity: 0;
+.hover-bg .hover-text .text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   color: #fff;
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-  transition: all 0.3s;
-  font-size: 18px;
-  letter-spacing: 1px;
-  font-weight: bold;
-  text-transform: uppercase;
+}
+
+.hover-bg .hover-text .text h4 {
+  color: #fff;
 }
 .hover-bg .hover-text ul {
   margin: 2rem;
@@ -619,6 +621,16 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #035aa6;
   text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  #about .video-container {
+    flex-direction: column;
+  }
+  #about .video-about {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width: 767px) {

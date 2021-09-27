@@ -41,31 +41,33 @@ export const Products = (props) => {
                 <div
                   key={index}
                   onClick={() => openImageViewer(index)}
-                  className="col-sm-6 col-md-4 col-lg-4"
+                  className="col-sm-6 col-md-4 col-lg-4 product"
                 >
                   <div className="products-item cursor">
                     <div className="hover-bg">
                       <div className="hover-text">
-                        <h4>{title}</h4>
-                        {descriptions && (
-                          <ul>
-                            {descriptions &&
-                              descriptions.map((description, index) => (
-                                <li key={index}>{description}</li>
-                              ))}
-                          </ul>
-                        )}
-                        {selections && (
-                          <ul>
-                            {selections &&
-                              selections.map((selection, index) => (
-                                <li key={index}>{selection}</li>
-                              ))}
-                          </ul>
-                        )}
-                        <p>{detail}</p>
-                        <h4>{warranty}</h4>
-                        <h4>{use}</h4>
+                        <div className="text">
+                          <h4>{title}</h4>
+                          {descriptions && (
+                            <ul>
+                              {descriptions &&
+                                descriptions.map((description, index) => (
+                                  <li key={index}>{description}</li>
+                                ))}
+                            </ul>
+                          )}
+                          {selections && (
+                            <ul>
+                              {selections &&
+                                selections.map((selection, index) => (
+                                  <li key={index}>{selection}</li>
+                                ))}
+                            </ul>
+                          )}
+                          <p>{detail}</p>
+                          <h4>{warranty}</h4>
+                          <h4>{use}</h4>
+                        </div>
                       </div>
                       <img src={thumb} className="img-responsive" alt={title} />{" "}
                     </div>
