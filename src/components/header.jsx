@@ -1,5 +1,3 @@
-import ParticlesBg from "particles-bg";
-
 export const Header = (props) => {
   return (
     <header id="header">
@@ -8,7 +6,7 @@ export const Header = (props) => {
           type="circle"
           bg={{ zIndex: 0, position: "absolute", top: 0 }}
         /> */}
-        <img src="img/banner4.jpg" className="logo" alt="Código Tecnologia" />
+        <img src="img/banner2.jpg" className="logo" alt="Código Tecnologia" />
         {/* <div className="overlay">
           <div className="container">
             <div className="row">
