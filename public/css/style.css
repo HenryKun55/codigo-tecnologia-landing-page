@@ -402,7 +402,10 @@ i.fas {
   text-transform: uppercase;
 }
 .hover-bg .hover-text ul {
-  margin: 2rem 0;
+  margin: 2rem;
+}
+.hover-bg .hover-text p {
+  margin: 2rem;
 }
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;

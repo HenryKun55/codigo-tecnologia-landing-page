@@ -18,7 +18,9 @@ export const About = (props) => {
               </div>
               <br />
               <h3>CONHEÇA-NOS!</h3>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
+              {props.data
+                ? props.data.paragraphs.map((paragraph) => <p>{paragraph}</p>)
+                : "loading..."}
             </div>
           </div>
         </div>

@@ -27,7 +27,15 @@ export const Products = (props) => {
           <div className="products-items">
             {props.data.map(
               (
-                { title, thumb, descriptions, selections, warranty, use },
+                {
+                  title,
+                  thumb,
+                  descriptions,
+                  selections,
+                  warranty,
+                  use,
+                  detail,
+                },
                 index
               ) => (
                 <div
@@ -55,6 +63,7 @@ export const Products = (props) => {
                               ))}
                           </ul>
                         )}
+                        <p>{detail}</p>
                         <h4>{warranty}</h4>
                         <h4>{use}</h4>
                       </div>

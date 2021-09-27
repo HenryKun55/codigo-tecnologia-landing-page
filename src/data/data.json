@@ -3,7 +3,10 @@
     "title": "Precisa de testes ou carregadores de bateria? Os melhores estão aqui!"
   },
   "About": {
-    "paragraph": "Com muita técnica e inovação levamos a todo o Brasil os melhores testes e carregadores de baterias. Estamos há mais de 14 anos fazendo história e revolucionando o mercado!",
+    "paragraphs": [
+      "A Código Tecnologia foi fundada em junho de 2003 na cidade de belo jardim. a mesma foi fundada para o desenvolvimento e fabricação e produtos eletroeletrônicos para o seguimento de: formação, recarga e testes de baterias. a mesma atua no setor automotivo, agrícola, indústrial, náutico, hobby e comercial, entregando sempre as melhores inovações e os produtos com a maior qualidade, eficiência e durabilidade.",
+      "Com a experiência adquirida aos longos dos anos no mercado, garantimos a você um produto confiável e de tecnologia moderna, capaz de se adequar as mais diversas necessidades do mercado."
+    ],
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -38,7 +41,8 @@
         "Visor digital de até 30v"
       ],
       "warranty": "12 meses de garantia",
-      "use": "Uso profissional"
+      "use": "Uso profissional",
+      "detail": "Visor digital com tabela comparativa para leitura e interpretação dos resultados. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de recarga da motocicleta e motor de partida."
     },
     {
       "title": "TB300 Analógico",
