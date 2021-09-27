@@ -246,7 +246,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 100px 0;
+  padding: 4rem 0;
 }
 #about h3 {
   font-size: 22px;
@@ -377,6 +377,10 @@ i.fas {
   overflow: hidden;
   position: relative;
   margin: 0;
+}
+.products-item .hover-bg img {
+  display: inline;
+  height: 50rem;
 }
 .hover-bg .hover-text {
   position: absolute;
