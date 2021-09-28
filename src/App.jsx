@@ -10,25 +10,53 @@ import SmoothScroll from "smooth-scroll";
 
 import data from "./data/data.json";
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
-  speedAsDuration: true,
-});
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-const App = () => {
+export default function App() {
   return (
-    <div>
+    <Router>
       <Navigation />
-      <Header data={data.Header} />
-      <About data={data.About} />
-      <Products data={data.Products} />
-      {/* <Services data={data.Services} /> */}
-      <Benevolent data={data.Benevolent} />
-      <Depoiments data={data.Depoiments} />
-
+      <Switch>
+        <Route exact path="/">
+          <Header data={data.Header} />
+        </Route>
+        <Route path="/sobre">
+          <About data={data.About} />
+        </Route>
+        <Route path="/produtos">
+          <Products data={data.Products} />
+        </Route>
+        <Route path="/beneficios">
+          <Benevolent data={data.Benevolent} />
+        </Route>
+        <Route path="/depoimentos">
+          <Depoiments data={data.Depoiments} />
+        </Route>
+      </Switch>
       <Footer />
-    </div>
+    </Router>
   );
-};
+}
 
-export default App;
+// export const scroll = new SmoothScroll('a[href*="#"]', {
+//   speed: 1000,
+//   speedAsDuration: true,
+// });
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Navigation />
+//       <Header data={data.Header} />
+//       <About data={data.About} />
+//       <Products data={data.Products} />
+//       {/* <Services data={data.Services} /> */}
+//       <Benevolent data={data.Benevolent} />
+//       <Depoiments data={data.Depoiments} />
+
+//       <Footer />
+//     </div>
+//   );
+// };
+
+// export default App;

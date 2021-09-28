@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -16,12 +18,14 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <button className="page-scroll">
-            <img
-              src="img/logo.png"
-              className="logo"
-              alt="Código Tecnologia"
-              height={36}
-            />
+            <Link to="/">
+              <img
+                src="img/logo.png"
+                className="logo"
+                alt="Código Tecnologia"
+                height={36}
+              />
+            </Link>
           </button>{" "}
         </div>
 
@@ -31,24 +35,29 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#about" className="page-scroll">
+              <Link to="/" className="page-scroll">
+                Início
+              </Link>
+            </li>
+            <li>
+              <Link to="/sobre" className="page-scroll">
                 Sobre nós
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#products" className="page-scroll">
+              <Link to="/produtos" className="page-scroll">
                 Produtos
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#benevolent" className="page-scroll">
+              <Link to="beneficios" className="page-scroll">
                 Benefícios
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#depoiments" className="page-scroll">
+              <Link to="depoimentos" className="page-scroll">
                 Depoimentos
-              </a>
+              </Link>
             </li>
             {/* <li>
               <a href="#testimonials" className="page-scroll">

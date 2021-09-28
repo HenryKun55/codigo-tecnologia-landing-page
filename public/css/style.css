@@ -248,7 +248,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 4rem 0;
+  padding: 10rem 0 4rem;
 }
 #about h3 {
   font-size: 22px;
@@ -305,7 +305,7 @@ header .intro-text {
 }
 /* Features Section */
 #benevolent {
-  padding: 100px 0;
+  padding: 10rem 0 4rem;
   background: #f6f6f6;
 }
 #benevolent .container {
@@ -330,7 +330,8 @@ i.fas {
 }
 /* Services Section */
 #services {
-  padding: 100px 0;
+  padding: 10rem 0 4rem;
+
   background: linear-gradient(to right, #035aa6 0%, #b0d6df 100%);
   color: #fff;
 }
@@ -373,7 +374,7 @@ i.fas {
 }
 /* Portfolio Section */
 #products {
-  padding: 50px 0;
+  padding: 10rem 0 4rem;
 }
 .products-item {
   margin: 1px -15px 0 -14px;
@@ -427,7 +428,8 @@ i.fas {
 }
 /* depoiments Section */
 #depoiments {
-  padding: 100px 0;
+  padding: 10rem 0 4rem;
+
   background: #f6f6f6;
 }
 #depoiments i {
@@ -467,7 +469,7 @@ i.fas {
 }
 /* Team Section */
 #team {
-  padding: 100px 0;
+  padding: 10rem 0 4rem;
 }
 #team h4 {
   margin: 5px 0;
@@ -485,7 +487,8 @@ i.fas {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px 0;
+  padding: 10rem 0 4rem;
+
   background: linear-gradient(to right, #035aa6 0%, #b0d6df 100%);
   color: rgba(255, 255, 255, 0.75);
 }
