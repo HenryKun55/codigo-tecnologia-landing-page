@@ -380,7 +380,21 @@ i.fas {
   margin: 1px -15px 0 -14px;
   padding: 0;
 }
-.products-items .product {
+.products-items .title-products {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.products-items .title-products h3 {
+  text-transform: uppercase;
+  margin: 2rem 0;
+  font-weight: 800;
+  font-size: 28px;
+  color: #333;
+}
+.products-items {
+  display: flex;
+  flex-direction: column;
 }
 .products-item .hover-bg {
   overflow: hidden;

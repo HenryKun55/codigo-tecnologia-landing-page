@@ -22,130 +22,145 @@
   },
   "Products": [
     {
-      "title": "TB50 Analógico",
-      "thumb": "img/products/tb50analogico.png",
-      "descriptions": [
-        "Testa baterias 12v de 2,5ah até 19ah",
-        "Teste de sistema de recarga e motor de arranque",
-        "Visor analógico de até 16v"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Visor intuitivo e de fácil interpretação. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de recarga da motocicleta e motor de partida."
+      "type": "Teste",
+      "products": [
+        {
+          "title": "TB50 Analógico",
+          "thumb": "img/products/tb50analogico.png",
+          "descriptions": [
+            "Testa baterias 12v de 2,5ah até 19ah",
+            "Teste de sistema de recarga e motor de arranque",
+            "Visor analógico de até 16v"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Visor intuitivo e de fácil interpretação. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de recarga da motocicleta e motor de partida."
+        },
+        {
+          "title": "TB50 Digital",
+          "thumb": "img/products/tb50digital.png",
+          "descriptions": [
+            "Testa baterias 12v de 2,5ah até 19ah",
+            "Teste de sistema de recarga e motor de arranque",
+            "Visor digital de até 30v"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Visor digital com tabela comparativa para leitura e interpretação dos resultados. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de recarga da motocicleta e motor de partida."
+        },
+        {
+          "title": "TB300 Analógico",
+          "thumb": "img/products/tb300analogico.png",
+          "descriptions": [
+            "Testa baterias 12v de 30ah até 150ah",
+            "Visor analógico de até 16v",
+            "Visor digital de até 30v"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Visor intuitivo e de fácil interpretação. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de alternador e motor de partida."
+        },
+        {
+          "title": "TB300 Digital",
+          "thumb": "img/products/tb300digital.png",
+          "descriptions": [
+            "Testa baterias 12v de 30ah até 150ah",
+            "Teste de sistema de recarga e motor de arranque",
+            "Visor analógico de até 16v",
+            "Visor digital de até 30v",
+            "Testa sistema 24v"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Visor digital com tabela comparativa para leitura e interpretação dos resultados. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de alternador e motor de partida."
+        },
+        {
+          "title": "TB500",
+          "thumb": "img/products/tb500.png",
+          "descriptions": [
+            "Testa baterias 12v de 2,5ah até 200ah",
+            "Teste de sistema de recarga e motor de arranque",
+            "Visor analógico de até 16v",
+            "Cabo positivo e negativo com 1,5m de comprimento"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Visor intuitivo e de fácil interpretação. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de alternador e motor de partida. Teste alimentado externamente com 12v. Possui as seguintes escalas de descarga: 100a, 200a, 300a e 500a."
+        },
+        {
+          "title": "TB600",
+          "thumb": "img/products/tb600.png",
+          "descriptions": [
+            "Testa baterias 12v de 2,5ah até 250ah",
+            "Teste de sistema de recarga e motor de arranque",
+            "Visor analógico de até 16v",
+            "Cabo positivo e negativo com 1,5m de comprimento"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Visor intuitivo e de fácil interpretação. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de alternador e motor de partida. Teste alimentado externamente com 12v. Possui as seguintes escalas de descarga: 100a, 200a, 300a e 600a."
+        }
+      ]
     },
     {
-      "title": "TB50 Digital",
-      "thumb": "img/products/tb50digital.png",
-      "descriptions": [
-        "Testa baterias 12v de 2,5ah até 19ah",
-        "Teste de sistema de recarga e motor de arranque",
-        "Visor digital de até 30v"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Visor digital com tabela comparativa para leitura e interpretação dos resultados. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de recarga da motocicleta e motor de partida."
+      "type": "Carregador",
+      "products": [
+        {
+          "title": "Carregador 5B10A",
+          "thumb": "img/products/carregador5B10A.png",
+          "descriptions": [
+            "Carrega baterias de moto, carro e caminhão.",
+            "De 1 até 5 baterias em série.",
+            "Corrente de recarga de até 10a.",
+            "Alimentação 110/220v"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Equipamento ideal para carregar de 1 até 5 baterias em série tanto em carga rápida quanto em carga lenta. Devido ao seu carregamento de corrente e tensão constante, é ideal para recarregar baterias em estado de descarga profunda (baterias muito descarregadas), atuando como um dessulfatizador."
+        },
+        {
+          "title": "Carregador 5B10A",
+          "thumb": "img/products/carregador10B10A.png",
+          "descriptions": [
+            "Carrega baterias de moto, carro e caminhão.",
+            "De 1 até 10 baterias em série.",
+            "Corrente de recarga de até 10a.",
+            "Alimentação 110/220v"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Equipamento ideal para carregar de 1 até 10 baterias em série tanto em carga rápida quanto em carga lenta. Devido ao seu carregamento de corrente e tensão constante, é ideal para recarregar baterias em estado de descarga profunda (baterias muito descarregadas), atuando como um dessulfatizador."
+        },
+        {
+          "title": "Carregador Inteligente Paralelômetro",
+          "thumb": "img/products/carregador-inteligente.png",
+          "descriptions": [
+            "Carregamento inteligente até 4 baterias 12v de até 250ah.",
+            "Corrente de recarga de até 40a.",
+            "Alimentação 110/220v"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Carrega até 4 baterias em paralelo, tanto na carga rápida quanto lenta. Oferece proteção contra inversão de polaridade,proteção térmica na saída e proteção contra curto circuito nas garras. Por ser carregamento inteligente, não causa sobrecarga nas baterias, pois para de mandar corrente quando a bateria estiver carregada."
+        }
+      ]
     },
     {
-      "title": "TB300 Analógico",
-      "thumb": "img/products/tb300analogico.png",
-      "descriptions": [
-        "Testa baterias 12v de 30ah até 150ah",
-        "Visor analógico de até 16v",
-        "Visor digital de até 30v"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Visor intuitivo e de fácil interpretação. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de alternador e motor de partida."
-    },
-    {
-      "title": "TB300 Digital",
-      "thumb": "img/products/tb300digital.png",
-      "descriptions": [
-        "Testa baterias 12v de 30ah até 150ah",
-        "Teste de sistema de recarga e motor de arranque",
-        "Visor analógico de até 16v",
-        "Visor digital de até 30v",
-        "Testa sistema 24v"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Visor digital com tabela comparativa para leitura e interpretação dos resultados. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de alternador e motor de partida."
-    },
-    {
-      "title": "TB500",
-      "thumb": "img/products/tb500.png",
-      "descriptions": [
-        "Testa baterias 12v de 2,5ah até 200ah",
-        "Teste de sistema de recarga e motor de arranque",
-        "Visor analógico de até 16v",
-        "Cabo positivo e negativo com 1,5m de comprimento"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Visor intuitivo e de fácil interpretação. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de alternador e motor de partida. Teste alimentado externamente com 12v. Possui as seguintes escalas de descarga: 100a, 200a, 300a e 500a."
-    },
-    {
-      "title": "TB600",
-      "thumb": "img/products/tb600.png",
-      "descriptions": [
-        "Testa baterias 12v de 2,5ah até 250ah",
-        "Teste de sistema de recarga e motor de arranque",
-        "Visor analógico de até 16v",
-        "Cabo positivo e negativo com 1,5m de comprimento"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Visor intuitivo e de fácil interpretação. Com ele é possível testar capacidade de arranque da bateria (simulação de partida), estado de carga da bateria (tensão), sistema de alternador e motor de partida. Teste alimentado externamente com 12v. Possui as seguintes escalas de descarga: 100a, 200a, 300a e 600a."
-    },
-    {
-      "title": "Carregador 5B10A",
-      "thumb": "img/products/carregador5B10A.png",
-      "descriptions": [
-        "Carrega baterias de moto, carro e caminhão.",
-        "De 1 até 5 baterias em série.",
-        "Corrente de recarga de até 10a.",
-        "Alimentação 110/220v"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Equipamento ideal para carregar de 1 até 5 baterias em série tanto em carga rápida quanto em carga lenta. Devido ao seu carregamento de corrente e tensão constante, é ideal para recarregar baterias em estado de descarga profunda (baterias muito descarregadas), atuando como um dessulfatizador."
-    },
-    {
-      "title": "Carregador 5B10A",
-      "thumb": "img/products/carregador10B10A.png",
-      "descriptions": [
-        "Carrega baterias de moto, carro e caminhão.",
-        "De 1 até 10 baterias em série.",
-        "Corrente de recarga de até 10a.",
-        "Alimentação 110/220v"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Equipamento ideal para carregar de 1 até 10 baterias em série tanto em carga rápida quanto em carga lenta. Devido ao seu carregamento de corrente e tensão constante, é ideal para recarregar baterias em estado de descarga profunda (baterias muito descarregadas), atuando como um dessulfatizador."
-    },
-    {
-      "title": "Carregador Inteligente Paralelômetro",
-      "thumb": "img/products/carregador-inteligente.png",
-      "descriptions": [
-        "Carregamento inteligente até 4 baterias 12v de até 250ah.",
-        "Corrente de recarga de até 40a.",
-        "Alimentação 110/220v"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Carrega até 4 baterias em paralelo, tanto na carga rápida quanto lenta. Oferece proteção contra inversão de polaridade,proteção térmica na saída e proteção contra curto circuito nas garras. Por ser carregamento inteligente, não causa sobrecarga nas baterias, pois para de mandar corrente quando a bateria estiver carregada."
-    },
-    {
-      "title": "TVZ 300",
-      "thumb": "img/products/tvz300.png",
-      "descriptions": [
-        "Teste de vazamento (estanqueidade) em baterias 12v de até 250ah",
-        "Com manômetro de 0 a 300 milibares.",
-        "Alimentação 110/220v"
-      ],
-      "warranty": "12 meses de garantia",
-      "use": "Uso profissional",
-      "detail": "Com esse teste é possível perceber qualquer tipo de vazamento de solução por falha na selagem da bateria, quebras ou trincas do plástico da bateria."
+      "type": "Teste de Vazamento",
+      "products": [
+        {
+          "title": "TVZ 300",
+          "thumb": "img/products/tvz300.png",
+          "descriptions": [
+            "Teste de vazamento (estanqueidade) em baterias 12v de até 250ah",
+            "Com manômetro de 0 a 300 milibares.",
+            "Alimentação 110/220v"
+          ],
+          "warranty": "12 meses de garantia",
+          "use": "Uso profissional",
+          "detail": "Com esse teste é possível perceber qualquer tipo de vazamento de solução por falha na selagem da bateria, quebras ou trincas do plástico da bateria."
+        }
+      ]
     }
   ],
   "Benevolent": [
