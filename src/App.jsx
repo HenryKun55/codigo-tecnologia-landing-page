@@ -33,6 +33,10 @@ export default function App() {
           <Depoiments data={data.Depoiments} />
         </Route>
       </Switch>
+      {/* <i className="fab fa-whatsapp"></i> */}
+      <a href="https://wa.me/5581941052527?text=Tem%20alguma%20dúvida?%20Entre%20em%20contato%20agora%20mesmo!">
+        <img className="whatsapp" src="https://www.whatsapp.com/favicon.ico" />
+      </a>
       <Footer />
     </Router>
   );

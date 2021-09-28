@@ -22,7 +22,7 @@
   },
   "Products": [
     {
-      "type": "Teste",
+      "type": "Testes",
       "products": [
         {
           "title": "TB50 Analógico",
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "type": "Carregador",
+      "type": "Carregadores",
       "products": [
         {
           "title": "Carregador 5B10A",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "type": "Teste de Vazamento",
+      "type": "Testes de Vazamento",
       "products": [
         {
           "title": "TVZ 300",
