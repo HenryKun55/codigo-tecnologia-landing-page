@@ -19,6 +19,10 @@ export default function App() {
       <Switch>
         <Route exact path="/">
           <Header data={data.Header} />
+          <About data={data.About} />
+          <Products data={data.Products} />
+          <Benevolent data={data.Benevolent} />
+          <Depoiments data={data.Depoiments} />
         </Route>
         <Route path="/sobre">
           <About data={data.About} />
@@ -33,10 +37,18 @@ export default function App() {
           <Depoiments data={data.Depoiments} />
         </Route>
       </Switch>
-      {/* <i className="fab fa-whatsapp"></i> */}
-      <a href="https://wa.me/5581941052527?text=Tem%20alguma%20dúvida?%20Entre%20em%20contato%20agora%20mesmo!">
-        <img className="whatsapp" src="https://www.whatsapp.com/favicon.ico" />
-      </a>
+      <div className="square">
+        <span className="circle"></span>
+        <span className="circle2"></span>
+        <span className="square-text">Fale conosco pelo WhatsApp</span>
+        <a href="https://wa.me/558141052527?text=Tem%20alguma%20dúvida?%20Entre%20em%20contato%20agora%20mesmo!">
+          <img
+            className="whatsapp"
+            src="https://www.whatsapp.com/favicon.ico"
+          />
+        </a>
+      </div>
+
       <Footer />
     </Router>
   );
