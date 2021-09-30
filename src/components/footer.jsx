@@ -31,7 +31,7 @@ export const Footer = (props) => {
                 <span className="email">vendas.codigotecnologia@gmail.com</span>
               </div>
               <div>
-                <i class="fas fa-map-marker-alt"></i>
+                <i className="fas fa-map-marker-alt"></i>
                 <span className="address">
                   Av. Professora Dulce Ramos, n° 25, Gameleira Belo Jardim,
                   Pernambuco, Brazil

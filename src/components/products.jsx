@@ -1,23 +1,10 @@
-import React, { useState, useCallback } from "react";
-import ImageViewer from "react-simple-image-viewer";
+import React from "react";
+import { Link } from "react-router-dom";
 
 export const Products = (props) => {
-  const [currentImage, setCurrentImage] = useState(0);
-  const [isViewerOpen, setIsViewerOpen] = useState(false);
-
-  const images = props.data.map(({ products }) =>
-    products.map(({ thumb }) => thumb.replace("-small", "-large"))
-  );
-
-  const openImageViewer = useCallback((index) => {
-    setCurrentImage(index);
-    setIsViewerOpen(true);
-  }, []);
-
-  const closeImageViewer = () => {
-    setCurrentImage(0);
-    setIsViewerOpen(false);
-  };
+  function isBiggest(title) {
+    return title === "Carregador Inteligente Paralelômetro";
+  }
 
   return (
     <div id="products" className="text-center">
@@ -27,8 +14,8 @@ export const Products = (props) => {
         </div>
         <div className="row">
           <div className="products-items">
-            {props.data.map(({ type, products }) => (
-              <>
+            {props.data.map(({ type, products }, key) => (
+              <div key={`type-${key}`}>
                 <div className="title-products">
                   <h3>{type}</h3>
                 </div>
@@ -36,6 +23,7 @@ export const Products = (props) => {
                   {products.map(
                     (
                       {
+                        id,
                         title,
                         descriptions,
                         selections,
@@ -46,62 +34,68 @@ export const Products = (props) => {
                       },
                       index
                     ) => (
-                      <div
+                      <Link
                         key={index}
-                        onClick={() => openImageViewer(index)}
-                        className="col-sm-6 col-md-4 col-lg-4 product"
+                        to={{
+                          pathname: `/produtos/${id}`,
+                          state: { id },
+                        }}
                       >
-                        <div className="products-item cursor">
-                          <div className="hover-bg">
-                            <div className="hover-text">
-                              <div className="text">
-                                <h4>{title}</h4>
-                                {descriptions && (
-                                  <ul>
-                                    {descriptions &&
-                                      descriptions.map((description, index) => (
-                                        <li key={index}>{description}</li>
-                                      ))}
-                                  </ul>
-                                )}
-                                {selections && (
-                                  <ul>
-                                    {selections &&
-                                      selections.map((selection, index) => (
-                                        <li key={index}>{selection}</li>
-                                      ))}
-                                  </ul>
-                                )}
-                                <p>{detail}</p>
-                                <h4>{warranty}</h4>
-                                <h4>{use}</h4>
+                        <div className="col-sm-6 col-md-4 col-lg-4 product">
+                          <div className="products-item cursor">
+                            <div
+                              className={
+                                isBiggest(title)
+                                  ? "hover-bg-biggest"
+                                  : "hover-bg"
+                              }
+                            >
+                              <div className="hover-text">
+                                <div className="text"></div>
                               </div>
+                              <img
+                                src={thumb}
+                                className={
+                                  title ===
+                                  "Carregador Inteligente Paralelômetro"
+                                    ? "biggest"
+                                    : "img-responsive"
+                                }
+                                alt={title}
+                              />{" "}
+                              <h4>{title}</h4>
                             </div>
-                            <img
-                              src={thumb}
-                              className="img-responsive"
-                              alt={title}
-                            />{" "}
                           </div>
                         </div>
-                      </div>
+                      </Link>
                     )
                   )}
                 </div>
-              </>
+              </div>
             ))}
           </div>
-
-          {isViewerOpen && (
-            <ImageViewer
-              src={images}
-              backgroundStyle={{ zIndex: 99999 }}
-              currentIndex={currentImage}
-              onClose={closeImageViewer}
-            />
-          )}
         </div>
       </div>
     </div>
   );
 };
+
+// {descriptions && (
+//   <ul>
+//     {descriptions &&
+//       descriptions.map((description, index) => (
+//         <li key={index}>{description}</li>
+//       ))}
+//   </ul>
+// )}
+// {selections && (
+//   <ul>
+//     {selections &&
+//       selections.map((selection, index) => (
+//         <li key={index}>{selection}</li>
+//       ))}
+//   </ul>
+// )}
+// <p>{detail}</p>
+// <h4>{warranty}</h4>
+// <h4>{use}</h4>

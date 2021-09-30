@@ -2,6 +2,7 @@ import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { About } from "./components/about";
 import { Products } from "./components/products";
+import { Product } from "./components/product";
 import { Benevolent } from "./components/benevolent";
 import { Depoiments } from "./components/depoiments";
 import { Services } from "./components/services";
@@ -24,16 +25,19 @@ export default function App() {
           <Benevolent data={data.Benevolent} />
           <Depoiments data={data.Depoiments} />
         </Route>
-        <Route path="/sobre">
+        <Route exact path="/sobre">
           <About data={data.About} />
         </Route>
-        <Route path="/produtos">
+        <Route exact path="/produtos">
           <Products data={data.Products} />
         </Route>
-        <Route path="/beneficios">
+        <Route exact path="/produtos/:id">
+          <Product data={data.Products} />
+        </Route>
+        <Route exact path="/beneficios">
           <Benevolent data={data.Benevolent} />
         </Route>
-        <Route path="/depoimentos">
+        <Route exact path="/depoimentos">
           <Depoiments data={data.Depoiments} />
         </Route>
       </Switch>
