@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export const Products = (props) => {
@@ -6,6 +6,9 @@ export const Products = (props) => {
     return title === "Carregador Inteligente Paralelômetro";
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div id="products" className="text-center">
       <div className="container">

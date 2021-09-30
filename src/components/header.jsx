@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export const Header = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <header id="header">
       <div className="intro">

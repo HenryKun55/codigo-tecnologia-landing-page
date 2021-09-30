@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export const About = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div id="about">
       <div className="container">

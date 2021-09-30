@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router";
 
 export const Product = (props) => {
@@ -14,6 +14,10 @@ export const Product = (props) => {
       .find(({ id }) => id === state.id);
 
   console.log(thumb);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <div id="product" className="text-center">

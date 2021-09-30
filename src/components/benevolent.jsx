@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export const Benevolent = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div id="benevolent" className="text-center">
       <div className="container">
