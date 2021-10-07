@@ -40,6 +40,9 @@ export default function App() {
         <Route exact path="/depoimentos">
           <Depoiments data={data.Depoiments} />
         </Route>
+        <Route exact path="/contato">
+          <Footer />
+        </Route>
       </Switch>
       <div className="square">
         <span className="circle"></span>

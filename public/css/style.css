@@ -82,8 +82,13 @@ button.page-scroll {
   border: none;
   background: transparent;
 }
+#menu .container .navbar-collapse {
+  flex: 1;
+  border-color: transparent;
+  box-shadow: none;
+}
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #035aa6;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -97,9 +102,9 @@ button.page-scroll {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #fff;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 700;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0 20px;
@@ -141,11 +146,17 @@ button.page-scroll {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
-  border-color: #035aa6;
+  background-color: transparent;
+  border-color: #fff;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #035aa6;
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
 }
 .section-title {
   margin-bottom: 70px;
@@ -478,9 +489,16 @@ i.fas {
   justify-content: flex-start;
   width: 40rem;
 }
-
-#product .product-image img {
+#product .product-image {
+  display: flex;
+  justify-content: center;
+}
+#product .product-image img.img-responsive {
   height: 30rem;
+}
+#product .product-image img.biggest {
+  display: inline;
+  height: 20rem;
 }
 /* depoiments Section */
 #depoiments {
@@ -669,19 +687,21 @@ label {
   background: #fff;
 }
 /* Footer Section*/
+footer {
+  background-color: #035aa6;
+}
 #footer {
-  background: #fff;
   padding: 3rem;
   display: flex;
   justify-content: space-around;
   margin: 0 10rem;
 }
 #footer p {
-  color: #888;
+  color: #fff;
   font-size: 14px;
 }
 #footer a {
-  color: #035aa6;
+  color: #fff;
 }
 
 .info-contact {
@@ -697,14 +717,15 @@ label {
 }
 
 .fa-instagram {
-  background: radial-gradient(
+  /* background: radial-gradient(
     circle at 30% 107%,
     #fdf497 0%,
     #fdf497 5%,
     #fd5949 45%,
     #d6249f 60%,
     #285aeb 90%
-  );
+  ); */
+  background: #fff;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -713,23 +734,31 @@ label {
 }
 
 .fa-facebook {
-  color: #3a5794;
+  color: #fff;
+  font-size: 40px;
+  margin-right: 2rem;
+}
+
+.fa-youtube {
+  color: #fff;
   font-size: 40px;
 }
 
 .social .title,
 .contact .title {
+  color: #fff;
   font-size: 20px;
   margin-bottom: 2rem;
 }
 
 .contact .info {
+  color: #fff;
   margin-top: 1rem;
 }
 
 .contact .fa-phone {
   border-radius: 50%;
-  color: #035aa6;
+  color: #fff;
   font-size: 15px;
   margin-right: 1rem;
   background: transparent;
@@ -740,7 +769,7 @@ label {
 
 .contact .fa-map-marker-alt {
   border-radius: 50%;
-  color: #035aa6;
+  color: #fff;
   font-size: 15px;
   margin-right: 1rem;
   background: transparent;
@@ -752,7 +781,7 @@ label {
 
 .contact .fa-envelope {
   border-radius: 50%;
-  color: #035aa6;
+  color: #fff;
   font-size: 15px;
   margin-right: 1rem;
   background: transparent;
@@ -810,7 +839,7 @@ label {
 .circle {
   top: 50%;
   width: 57px;
-  right: -10px;
+  right: -18px;
   height: 50px;
   position: absolute;
   background-color: white;
@@ -821,7 +850,7 @@ label {
 .circle2 {
   top: 50%;
   width: 65px;
-  right: -9px;
+  right: -15px;
   height: 53px;
   position: absolute;
   background-color: white;

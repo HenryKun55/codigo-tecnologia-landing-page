@@ -20,10 +20,10 @@ export const Navigation = (props) => {
           <button className="page-scroll">
             <Link to="/">
               <img
-                src="img/logo.png"
+                src="img/logo-white.png"
                 className="logo"
                 alt="Código Tecnologia"
-                height={36}
+                height={50}
               />
             </Link>
           </button>{" "}
@@ -57,6 +57,11 @@ export const Navigation = (props) => {
             <li>
               <Link to="depoimentos" className="page-scroll">
                 Depoimentos
+              </Link>
+            </li>
+            <li>
+              <Link to="contato" className="page-scroll">
+                Contato
               </Link>
             </li>
             {/* <li>

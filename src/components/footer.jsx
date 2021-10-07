@@ -1,6 +1,6 @@
 export const Footer = (props) => {
   return (
-    <div>
+    <footer>
       <div id="footer">
         <div className="social">
           <span className="title">Nos acompanhe nas redes sociais!</span>
@@ -10,6 +10,9 @@ export const Footer = (props) => {
             </a>
             <a href="https://www.facebook.com/C%C3%B3digo-Tecnologia-113071403542897">
               <i className="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCh_h02M5KyFPFFvuM2vnJHw">
+              <i className="fab fa-youtube"></i>
             </a>
           </div>
         </div>
@@ -27,14 +30,18 @@ export const Footer = (props) => {
                 <span className="phone">+55 (81) 9 9177-9644</span>
               </div>
               <div>
+                <i className="fas fa-phone"></i>
+                <span className="phone">+55 (81) 4105-2527</span>
+              </div>
+              <div>
                 <i className="far fa-envelope"></i>
                 <span className="email">vendas.codigotecnologia@gmail.com</span>
               </div>
               <div>
                 <i className="fas fa-map-marker-alt"></i>
                 <span className="address">
-                  Av. Professora Dulce Ramos, n° 25, Gameleira Belo Jardim,
-                  Pernambuco, Brazil
+                  Av. Professora Dulce Ramos, n° 25, loteamento Tereza Mendonça,
+                  Bairro Gameleira, Belo Jardim-PE, Cep 55153-810
                 </span>
               </div>
             </div>
@@ -49,6 +56,6 @@ export const Footer = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
