@@ -46,7 +46,7 @@ export const Footer = (props) => {
               </div>
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center me">
             <p>
               &copy; 2021 Design by{" "}
               <a href="https://www.findfh.dev" rel="nofollow">

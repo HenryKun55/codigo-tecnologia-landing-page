@@ -793,11 +793,12 @@ footer {
 .text-center {
   margin-top: 4rem;
 }
-
+.me > p > a {
+  font-weight: bolder;
+}
 .cursor {
   cursor: pointer;
 }
-
 .fa-whatsapp {
   position: fixed;
   bottom: 100px;

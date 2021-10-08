@@ -44,11 +44,15 @@ export const Product = (props) => {
               {descriptions.map((description) => (
                 <p key={description}>{description}</p>
               ))}
-              <p>{detail}</p>
-              <br />
-              <br />
-              <h4>{warranty}</h4>
-              <h4>{use}</h4>
+              {detail && (
+                <>
+                  <p>{detail}</p>
+                  <br />
+                  <br />
+                  <h4>{warranty}</h4>
+                  <h4>{use}</h4>
+                </>
+              )}
             </div>
           </div>
         </div>

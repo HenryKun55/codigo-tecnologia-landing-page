@@ -5,13 +5,11 @@ import { Products } from "./components/products";
 import { Product } from "./components/product";
 import { Benevolent } from "./components/benevolent";
 import { Depoiments } from "./components/depoiments";
-import { Services } from "./components/services";
 import { Footer } from "./components/footer";
-import SmoothScroll from "smooth-scroll";
 
 import data from "./data/data.json";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
   return (

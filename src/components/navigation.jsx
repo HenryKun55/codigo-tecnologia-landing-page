@@ -50,25 +50,20 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li>
-              <Link to="beneficios" className="page-scroll">
+              <Link to="/beneficios" className="page-scroll">
                 Benefícios
               </Link>
             </li>
             <li>
-              <Link to="depoimentos" className="page-scroll">
+              <Link to="/depoimentos" className="page-scroll">
                 Depoimentos
               </Link>
             </li>
             <li>
-              <Link to="contato" className="page-scroll">
+              <Link to="/contato" className="page-scroll">
                 Contato
               </Link>
             </li>
-            {/* <li>
-              <a href="#testimonials" className="page-scroll">
-                Contato
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>

@@ -4,8 +4,8 @@
   },
   "About": {
     "paragraphs": [
-      "A Código Tecnologia foi fundada em junho de 2003 na cidade de belo jardim. a mesma foi fundada para o desenvolvimento e fabricação e produtos eletroeletrônicos para o seguimento de: formação, recarga e testes de baterias. a mesma atua no setor automotivo, agrícola, indústrial, náutico, hobby e comercial, entregando sempre as melhores inovações e os produtos com a maior qualidade, eficiência e durabilidade.",
-      "Com a experiência adquirida aos longos dos anos no mercado, garantimos a você um produto confiável e de tecnologia moderna, capaz de se adequar as mais diversas necessidades do mercado."
+      "A Código Tecnologia foi fundada em junho de 2003 na cidade de Belo Jardim. A mesma foi estabelecida para o desenvolvimento e fabricação de produtos eletroeletrônicos para o seguimento de formação, recarga e testes de baterias. A Código Tecnologia está inserida no setor automotivo, agrícola, industrial, náutico, hobby e comercial, entregando sempre as melhores inovações e produtos com maior qualidade, eficiência e durabilidade.",
+      "Com a experiência adquirida ao longo dos anos no mercado, garantimos a você um excelente produto."
     ],
     "Why": [
       "Lorem ipsum dolor",
@@ -169,6 +169,27 @@
           "warranty": "12 meses de garantia",
           "use": "Uso profissional",
           "detail": "Com esse teste é possível perceber qualquer tipo de vazamento de solução por falha na selagem da bateria, quebras ou trincas do plástico da bateria."
+        }
+      ]
+    },
+    {
+      "type": "Estruturas",
+      "products": [
+        {
+          "id": 11,
+          "thumb": "img/products/estruturaL.png",
+          "title": "Estrutura carregador inteligente modelo L",
+          "descriptions": [
+            "Esse sistema de carga permite recarregar 8 baterias simultaneamente em paralelo, dando a flexibilidade de recarregar de 1 a 8 baterias. Conforme as baterias forem recarregando poderão ser desligadas individualmente, oferecendo condições de colocar outra bateria em carga em seguida, sem precisar esperar que todas estejam carregadas para aí então desligá-lo."
+          ]
+        },
+        {
+          "id": 12,
+          "thumb": "img/products/estruturaT.png",
+          "title": "Estrutura carregador inteligente modelo T",
+          "descriptions": [
+            "Esse sistema de carga permite recarregar 8 baterias simultaneamente em paralelo, dando a flexibilidade de recarregar de 1 a 8 baterias. Conforme as baterias forem recarregando poderão ser desligadas individualmente, oferecendo condições de colocar outra bateria em carga em seguida, sem precisar esperar que todas estejam carregadas para aí então desligá-lo."
+          ]
         }
       ]
     }
