@@ -27,15 +27,7 @@ export const Product = (props) => {
         </div>
         <div className="row info">
           <div className="product-image">
-            <img
-              className={
-                title === "Carregador Inteligente Paralelômetro"
-                  ? "biggest"
-                  : "img-responsive"
-              }
-              src={`../${thumb}`}
-              alt={title}
-            />
+            <img className="biggest" src={`../${thumb}`} alt={title} />
           </div>
           <div className="info">
             <h3>{title}</h3>

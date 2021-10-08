@@ -46,24 +46,13 @@ export const Products = (props) => {
                       >
                         <div className="col-sm-6 col-md-4 col-lg-4 product">
                           <div className="products-item cursor">
-                            <div
-                              className={
-                                isBiggest(title)
-                                  ? "hover-bg-biggest"
-                                  : "hover-bg"
-                              }
-                            >
+                            <div className="hover-bg-biggest">
                               <div className="hover-text">
                                 <div className="text"></div>
                               </div>
                               <img
                                 src={thumb}
-                                className={
-                                  title ===
-                                  "Carregador Inteligente Paralelômetro"
-                                    ? "biggest"
-                                    : "img-responsive"
-                                }
+                                className="biggest"
                                 alt={title}
                               />{" "}
                               <h4>{title}</h4>
