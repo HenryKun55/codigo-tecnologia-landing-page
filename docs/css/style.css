@@ -82,8 +82,15 @@ button.page-scroll {
   border: none;
   background: transparent;
 }
+.logo {
+  height: 65px;
+}
 #menu .container .navbar-collapse {
-  flex: 1;
+  position: relative;
+  top: 50%;
+  transform: translateY(10px);
+}
+.navbar-default .navbar-collapse {
   border-color: transparent;
   box-shadow: none;
 }
@@ -154,6 +161,9 @@ button.page-scroll {
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
+  position: relative;
+  top: 50%;
+  transform: translateY(10px);
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -423,18 +433,18 @@ i.fas {
 }
 .products-item .hover-bg img.biggest {
   display: inline;
-  height: 20rem;
+  height: 25rem;
 }
 .hover-bg h4 {
   margin-top: 2rem;
 }
 .products-item .hover-bg-biggest img {
   display: inline;
-  height: 30rem;
+  height: 25rem;
 }
 .products-item .hover-bg-biggest img.biggest {
   display: inline;
-  height: 20rem;
+  height: 25rem;
 }
 .hover-bg-biggest h4 {
   margin-top: 11.7rem;
@@ -498,7 +508,7 @@ i.fas {
 }
 #product .product-image img.biggest {
   display: inline;
-  height: 20rem;
+  height: 35rem;
 }
 /* depoiments Section */
 #depoiments {
@@ -717,6 +727,16 @@ footer {
 .social-media {
   display: flex;
   margin-top: 1rem;
+}
+
+.instagram,
+.facebook {
+  height: 40px;
+  margin-right: 2rem;
+}
+
+.youtube {
+  height: 42px;
 }
 
 .fa-instagram {

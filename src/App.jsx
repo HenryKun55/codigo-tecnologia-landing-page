@@ -38,9 +38,7 @@ export default function App() {
         <Route exact path="/depoimentos">
           <Depoiments data={data.Depoiments} />
         </Route>
-        <Route exact path="/contato">
-          {/* <Footer /> */}
-        </Route>
+        <Route exact path="/contato"></Route>
       </Switch>
       <div className="square">
         <span className="circle"></span>
@@ -58,26 +56,3 @@ export default function App() {
     </Router>
   );
 }
-
-// export const scroll = new SmoothScroll('a[href*="#"]', {
-//   speed: 1000,
-//   speedAsDuration: true,
-// });
-
-// const App = () => {
-//   return (
-//     <div>
-//       <Navigation />
-//       <Header data={data.Header} />
-//       <About data={data.About} />
-//       <Products data={data.Products} />
-//       {/* <Services data={data.Services} /> */}
-//       <Benevolent data={data.Benevolent} />
-//       <Depoiments data={data.Depoiments} />
-
-//       <Footer />
-//     </div>
-//   );
-// };
-
-// export default App;

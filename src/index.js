@@ -1,10 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import { init } from "emailjs-com";
 import "./index.css";
 import "./App.css";
 import "./script";
-import App from "./App";
-import * as serviceWorker from "./serviceWorker";
+import "react-toastify/dist/ReactToastify.min.css";
+
+init(process.env.REACT_APP_USER_ID);
 
 ReactDOM.render(
   <React.StrictMode>
