@@ -690,6 +690,9 @@ label {
 footer {
   background-color: #035aa6;
 }
+.only-contact {
+  margin-top: 89px;
+}
 #footer {
   padding: 3rem;
   display: flex;

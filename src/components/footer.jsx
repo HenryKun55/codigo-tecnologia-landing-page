@@ -1,6 +1,12 @@
+import { useLocation } from "react-router";
+
 export const Footer = (props) => {
+  const { pathname } = useLocation();
+
+  const isContact = pathname === "/contato";
+
   return (
-    <footer>
+    <footer className={isContact ? "only-contact" : "footer"}>
       <div id="footer">
         <div className="social">
           <span className="title">Nos acompanhe nas redes sociais!</span>
