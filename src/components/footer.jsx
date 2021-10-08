@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import { useLocation } from "react-router";
 
 export const Footer = (props) => {
   const { pathname } = useLocation();
 
   const isContact = pathname === "/contato";
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <footer className={isContact ? "only-contact" : "footer"}>
