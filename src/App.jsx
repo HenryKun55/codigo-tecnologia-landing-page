@@ -39,7 +39,7 @@ export default function App() {
           <Depoiments data={data.Depoiments} />
         </Route>
         <Route exact path="/contato">
-          {/* <Footer /> */}
+          <Footer />
         </Route>
       </Switch>
       <div className="square">
