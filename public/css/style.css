@@ -730,14 +730,13 @@ footer {
 }
 
 .instagram,
-.facebook,
-.youtube {
+.facebook {
   height: 40px;
   margin-right: 2rem;
 }
 
 .youtube {
-  margin-right: 0;
+  height: 42px;
 }
 
 .fa-instagram {
