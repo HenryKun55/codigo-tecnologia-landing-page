@@ -433,18 +433,18 @@ i.fas {
 }
 .products-item .hover-bg img.biggest {
   display: inline;
-  height: 20rem;
+  height: 25rem;
 }
 .hover-bg h4 {
   margin-top: 2rem;
 }
 .products-item .hover-bg-biggest img {
   display: inline;
-  height: 30rem;
+  height: 25rem;
 }
 .products-item .hover-bg-biggest img.biggest {
   display: inline;
-  height: 20rem;
+  height: 25rem;
 }
 .hover-bg-biggest h4 {
   margin-top: 11.7rem;
@@ -508,7 +508,7 @@ i.fas {
 }
 #product .product-image img.biggest {
   display: inline;
-  height: 20rem;
+  height: 35rem;
 }
 /* depoiments Section */
 #depoiments {
