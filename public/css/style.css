@@ -82,8 +82,15 @@ button.page-scroll {
   border: none;
   background: transparent;
 }
+.logo {
+  height: 65px;
+}
 #menu .container .navbar-collapse {
-  flex: 1;
+  position: relative;
+  top: 50%;
+  transform: translateY(10px);
+}
+.navbar-default .navbar-collapse {
   border-color: transparent;
   box-shadow: none;
 }
@@ -154,6 +161,9 @@ button.page-scroll {
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
+  position: relative;
+  top: 50%;
+  transform: translateY(10px);
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -717,6 +727,17 @@ footer {
 .social-media {
   display: flex;
   margin-top: 1rem;
+}
+
+.instagram,
+.facebook,
+.youtube {
+  height: 40px;
+  margin-right: 2rem;
+}
+
+.youtube {
+  margin-right: 0;
 }
 
 .fa-instagram {

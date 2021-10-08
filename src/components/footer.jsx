@@ -17,13 +17,28 @@ export const Footer = (props) => {
           <span className="title">Nos acompanhe nas redes sociais!</span>
           <div className="social-media">
             <a href="https://www.instagram.com/codigotecnologia">
-              <i className="fab fa-instagram"></i>
+              {/* <i className="fab fa-instagram"></i> */}
+              <img
+                className="instagram"
+                src="/img/icons/instagram.webp"
+                height={40}
+              />
             </a>
             <a href="https://www.facebook.com/C%C3%B3digo-Tecnologia-113071403542897">
-              <i className="fab fa-facebook"></i>
+              {/* <i className="fab fa-facebook"></i> */}
+              <img
+                className="facebook"
+                src="/img/icons/facebook.png"
+                height={40}
+              />
             </a>
             <a href="https://www.youtube.com/channel/UCh_h02M5KyFPFFvuM2vnJHw">
-              <i className="fab fa-youtube"></i>
+              {/* <i className="fab fa-youtube"></i> */}
+              <img
+                className="youtube"
+                src="/img/icons/youtube.png"
+                height={50}
+              />
             </a>
           </div>
         </div>

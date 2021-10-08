@@ -20,7 +20,7 @@ export const Navigation = (props) => {
           <button className="page-scroll">
             <Link to="/">
               <img
-                src="img/logo-white.png"
+                src="img/logo-label-white.png"
                 className="logo"
                 alt="Código Tecnologia"
                 height={50}
